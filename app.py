@@ -131,6 +131,6 @@ if __name__ == '__main__':
 	model.load_weights("fish_classification_model.h5")
 
 	# Run Flask di localhost 
-	
-        run_with_ngrok(app)
+	run_with_ngrok(app)
 	app.run()
+	
